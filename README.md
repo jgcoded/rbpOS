@@ -15,6 +15,6 @@ If you prefer testing with VMs or if you don't have a RaspberryPi, test out the 
 I linked to above has a section on using QEMU, but that didn't work for me. Instead, I did the following:
 
 ```
-$ sudo apt-get install sudo apt-get install qemu-system-arm
+$ sudo apt-get install qemu-system-arm
 $ qemu-system-arm -kernel rbpOS.elf -cpu arm1176 -m 256 -M versatilepb -no-reboot -serial stdio
 ```
